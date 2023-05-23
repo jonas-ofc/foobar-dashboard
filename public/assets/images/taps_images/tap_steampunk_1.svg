@@ -1,0 +1,23 @@
+<svg id="afe31edd-797e-49e9-a07f-120384ea2aed" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 198 331">
+  <g>
+    <line x1="81" y1="-11" x2="83" y2="43" fill="none"/>
+    <g>
+      <g>
+        <circle cx="100.5" cy="241.5" r="41.5" fill="#fff"/>
+        <circle cx="100.5" cy="241.5" r="41.5" fill="none" stroke="#fd695e" stroke-miterlimit="10" stroke-width="6"/>
+      </g>
+      <g>
+        <path d="M121.93,301a10.77,10.77,0,0,1-10.59,10H88.53a10.61,10.61,0,0,1-10.47-10L66.47,56c-.26-5.5,2.51-13.36,6.16-17.48,0,0,14.08-15.92,29.91-15.51,15.11.39,28,15.4,28,15.4,3.57,4.18,6.23,12.09,5.91,17.58Z" fill="#fff"/>
+        <path d="M121.93,301a10.77,10.77,0,0,1-10.59,10H88.53a10.61,10.61,0,0,1-10.47-10L66.47,56c-.26-5.5,2.51-13.36,6.16-17.48,0,0,14.08-15.92,29.91-15.51,15.11.39,28,15.4,28,15.4,3.57,4.18,6.23,12.09,5.91,17.58Z" fill="none" stroke="#fd695e" stroke-miterlimit="10" stroke-width="6"/>
+      </g>
+      <g>
+        <circle cx="100.5" cy="241.5" r="21.5" fill="#fd695e"/>
+        <circle cx="100.5" cy="241.5" r="21.5" fill="none" stroke="#fd695e" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <rect x="47" y="118" width="106" height="97" rx="10" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="8"/>
+    </g>
+    <image width="924" height="810" transform="translate(50.72 122.15) scale(0.11 0.11)" xlink:href="../../../../../../images%20(5)/images/steampunk.png"/>
+    <path d="M153.5,204.5a10.14,10.14,0,0,1-10,10.09l-87,.82a9.92,9.92,0,0,1-10-9.91v-77a10.14,10.14,0,0,1,10-10.09l87-.82a9.92,9.92,0,0,1,10,9.91Z" fill="none" stroke="#fd695e" stroke-miterlimit="10" stroke-width="9"/>
+    <path d="M110.65,34.35c-.42-.81-2.08-1.78-3.69-2.14,0,0-8.24-1.86-17.61,3.42A26.81,26.81,0,0,0,78.2,47.14c-.64,1.52-.81,3.43-.39,4.24s2.18,1.78,3,.33A30.75,30.75,0,0,1,93,40.5c2.4-1.25,16.21-2.85,16.21-2.85C110.85,37.46,111.08,35.16,110.65,34.35Z" fill="#fd695e"/>
+  </g>
+</svg>
