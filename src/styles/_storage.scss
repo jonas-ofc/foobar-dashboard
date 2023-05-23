@@ -1,0 +1,47 @@
+@use "./variables.scss" as v;
+@import "./mixins";
+
+#storage {
+  .data-storage {
+    padding: 1vw;
+    display: flex;
+    text-align: center;
+    margin-top: 4vw;
+    gap: 1vw;
+    overflow-x:  scroll;
+    @include for-phone-only {
+      flex-wrap: wrap;
+    }
+    .storageimage {
+      min-width: 10vw;
+      max-width: 10vw;
+    }
+  }
+  .expandView{
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 2vw;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;
+  border-radius: 10px; */
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: v.$redC;
+  border-radius: 10px;
+}
+}
+
+
+.hide{
+  display: none;
+}

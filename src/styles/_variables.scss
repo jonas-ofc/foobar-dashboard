@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Vintage;
+  src: url("fonts/VINTAGECOLLEGEDEPT_worn.otf") format("truetype");
+}
+
+@font-face {
+  font-family: LemonMilk;
+  src: url("fonts/LemonMilk.otf") format("truetype");
+}
+
+@font-face {
+  font-family: Smythe;
+  src: url("fonts/Smythe-Regular.ttf") format("truetype");
+}
+
+$lemonMilk: "font-family", LemonMilk;
+$vintage: "font-family", Vintage;
+$smythe: "font-family", Smythe;
+
+$bgC: #1a2129;
+$redC: #fd695e;
+$lysC: #e5e2bc;
+$bg2C: #202933;
+// /assets/fonts/Smythe-Regular.ttf

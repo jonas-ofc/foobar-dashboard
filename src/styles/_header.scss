@@ -1,0 +1,75 @@
+@use "./variables.scss" as v;
+@import "./mixins";
+
+header {
+    height: 4vw;
+  display: flex;
+  color: v.$lysC;
+  justify-content: space-between;
+  align-items: center;
+   padding: 3vw; 
+  @include for-phone-only {
+    padding: 20px;
+  }
+  #logo {
+    font-family: v.$vintage;
+    // @mixin displayLogo {
+    //   font-size: 1.3em;
+    //   color: color(red_header);
+    //   font-family: v.$vintage;
+    // }
+    h1 {
+      font-size: 3rem;
+      @include for-phone-only {
+        font-size: 2rem;
+        position: absolute;
+        top: 10vw;
+        left: 40vw;
+      }
+    }
+
+    .firstfade {
+      font-size: 3rem;
+      opacity: 20%;
+      margin-top: -40px;
+      @include for-phone-only {
+        font-size: 2rem;
+        margin-top: 12px;
+      }
+    }
+
+    .lastfade {
+      font-size: 3rem;
+      opacity: 5%;
+      margin-top: -40px;
+      @include for-phone-only {
+        font-size: 2rem;
+        margin-top: 24px;
+      }
+    }
+
+    #data-time {
+      @include for-phone-only {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  #slogan {
+    @include for-phone-only {
+      font-size: 0.8rem;
+    }
+  }
+  button {
+   @include buttons();
+    @include for-phone-only {
+      font-size: 0.5rem;
+      width: 30px;
+    }
+    &:hover {
+      transform: scale(0.98);
+      background-color: v.$redC;
+      color: v.$bgC;
+    }
+  }
+}

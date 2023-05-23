@@ -1,0 +1,33 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin buttons {
+  width: 100px;
+    height: 30px;
+    all: unset;
+    border: 1px solid v.$redC;
+    border-radius: 5px;
+    color: v.$redC;
+    font-family: v.$lemonMilk;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
